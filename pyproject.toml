@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "University-management-system"
+version = "0.1.0"
+description = "A management system django project"
+authors = ["Atabak Hooshangi", "1990.atabak.hooshangi@gmail.com"]
+license = "MIT"
+readme = "README.md"
+keywords = ["django", "web", "api"]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Framework :: Django",
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "5.0.4"
+psycopg-binary = "^3.1.18"
+faker = "^23.3.0"
+
